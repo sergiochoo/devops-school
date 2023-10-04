@@ -1,0 +1,7 @@
+---
+- hosts: all
+  become: true
+  roles:
+    - vsftpd
+  vars:
+    version: vsftpd = 3.0.3
